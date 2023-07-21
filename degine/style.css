@@ -52,12 +52,13 @@ span {
 /* main part */
 
 /* GOAT Section: */
-.cat-horse{
-   height:  600px;
-   border: 1px solid rgb(239, 185, 185);
-   background-color:rgb(196, 188, 176);
-   padding: 50px 30px;
+.cat-horse {
+    height: 600px;
+    border: 1px solid rgb(239, 185, 185);
+    background-color: rgb(196, 188, 176);
+    padding: 50px 30px;
 }
+
 .contaner {
     display: flex;
     justify-content: space-around;
@@ -127,19 +128,77 @@ span {
     color: hotpink;
 }
 
+/* we are gamer section: */
+.game{
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    border: 1px solid gray;
+    background-color:azure;
+}
+.know{
+    color: deeppink;
+}
+.more{
+    color: darkblue;
+    background-color:crimson;
+}
+.we-are-gamer-contraner{
+    padding-top: 40px;
+    padding-right: 30px;
+    text-align: right;
+}
+
+
+/* online game section: */
+.online-contraner {
+    height: 400px;
+    width: 1200px;
+    background-color:aquamarine;
+   
+}
+
+.online-text {
+    text-align: center;
+}
+
+.online-text-2 img {
+    width: 14em;
+    gap: 15px;
+}
+
+.online-text-2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+
+}
+
+.online-text-2 .box:hover {
+    border: 2px solid rgb(1, 1, 1);
+    border-radius: 1.5em;
+    cursor: pointer;
+    filter:brightness(0.5);
+}
+#text{
+    text-align: center;
+    color: darkred;
+}
+
+
+
 /* iconc section: */
 
-.icon-part{
+.icon-part {
     height: 200px;
     border: 1.5px solid red;
     padding-top: 20px;
     width: 1200px;
-    background-color:bisque
-    margin-left: 10px;
+    background-color: bisque margin-left: 10px;
 }
 
 .icons {
-    
+
     padding-left: 50px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -151,12 +210,13 @@ span {
 }
 
 .icons-second {
-    
+
     padding-left: 100px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.icons-second img{
+
+.icons-second img {
     width: 40px;
     height: 40px;
 
@@ -173,8 +233,8 @@ span {
     border: 1.5px solid rgb(58, 105, 244);
     border-radius: 1.5em;
     cursor: pointer;
-    background-color:rgb(57, 57, 192);
-    color:rgb(225, 116, 28);
+    background-color: rgb(57, 57, 192);
+    color: rgb(225, 116, 28);
 }
 
 .icons-2 {
@@ -189,8 +249,8 @@ span {
     border: 1.5px solid rgb(40, 220, 217);
     border-radius: 2em;
     cursor: pointer;
-    background-color:rgb(212, 91, 95);
-    color:rgb(75, 241, 67);
+    background-color: rgb(212, 91, 95);
+    color: rgb(75, 241, 67);
 }
 
 
@@ -250,6 +310,10 @@ span {
     font-size: 10px;
     color: cornflowerblue;
 }
+.body{
+    width: 1400px;
+    height: 100%;
+}
 
 
 
@@ -290,19 +354,22 @@ span {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
     .icons-second {
-    
+
         padding-left: 100px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
     .icons {
-    
+
         padding-left: 50px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .icon-part{
+
+    .icon-part {
         height: auto;
         width: 370px;
     }
