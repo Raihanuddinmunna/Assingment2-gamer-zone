@@ -1,0 +1,220 @@
+/* banner part:: */
+body{
+    width: 1200px;
+}
+.banner-section {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: white;
+
+}
+
+.banner-title {}
+
+span {
+    color: rgb(244, 19, 64);
+}
+
+.image-1 {
+    width: 100%;
+    height: 1em;
+    margin-top: 23px;
+}
+
+.banner-title {
+    display: flex;
+    gap: 10px
+}
+
+.ancor-tag {
+
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.follow {
+    border: 1.2px solid black;
+    border-radius: 2px;
+    background-color: rgb(185, 184, 184);
+    accent-color: red;
+}
+
+.follow img {
+    width: 1.3em;
+    height: 1.3em;
+
+}
+
+/* main part */
+
+/* GOAT Section: */
+.contaner {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    background-color: rgb(255, 245, 232);
+}
+
+.contaner-tittle {
+    width: 75%;
+    background-image: url("../images/Group\ 14.png");
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+#sign {
+    background-color: rgb(240, 105, 105);
+    width: 80px;
+}
+
+#go {
+    background-color: rgb(74, 74, 236);
+    width: 80px;
+}
+
+#goat {
+    font-size: 50px;
+    color: violet;
+    margin-top: 0px;
+}
+
+.main-image img {
+    height: 450px;
+}
+
+
+ 
+.parent {
+    position: relative;
+     bottom: 200px;
+    left: 500px;
+}
+
+.horse {
+    width: 500px;
+    position: relative;
+    top: 0;
+    right: 0;
+    border: 1px red solid;
+}
+
+.cat-image {
+    width: 250px;
+    position: absolute;
+    bottom: 0;
+    left: -150px;
+    border: 1px green solid;
+}
+
+.play div{
+    height: 450px;
+    width: 1200px
+    border: 5px solid red;
+    background-color: red;
+}
+ .raihan-1{
+    color: hotpink;
+ }
+
+ 
+
+/* footer section: */
+.footer-contaner {
+    height: 450px;
+    width: 1200px;
+    background-color: black;
+    color: white;
+    margin: 5px 10px;
+}
+
+.image-4 {
+    width: 1.3em;
+    height: 1.3em;
+    margin-top: 28px;
+
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.footer-tag {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.footer-icon {
+    display: grid;
+    grid-template-columns: repeat(4, 30px);
+    justify-content: center;
+    gap: 40px
+}
+
+.icon {
+    width: 30px;
+
+}
+
+.footer-tag-2 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 10px;
+
+}
+
+.footer-last {
+    text-align: center;
+    font-size: 10px;
+    color: cornflowerblue;
+}
+
+
+
+/* media quary: */
+
+/* for mobile device: */
+@media screen and (max-width: 425px) {
+    .banner-section {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .contaner {
+        display: block;
+        margin-top: 30px;
+        height: 300px;
+    }
+
+    .main-image img {
+        width: 370px;
+        height: 400px;
+        margin-bottom: auto;
+
+    }
+
+    .footer-contaner {
+        width: 360px;
+        height: 300px;
+
+    }
+
+    .footer-tag {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-tag-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
