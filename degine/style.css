@@ -1,7 +1,8 @@
 /* banner part:: */
-body{
+body {
     width: 1200px;
 }
+
 .banner-section {
     display: flex;
     justify-content: space-around;
@@ -87,10 +88,10 @@ span {
 }
 
 
- 
+
 .parent {
     position: relative;
-     bottom: 200px;
+    bottom: 200px;
     left: 500px;
 }
 
@@ -110,17 +111,51 @@ span {
     border: 1px green solid;
 }
 
-.play div{
+.play div {
     height: 450px;
-    width: 1200px
-    border: 5px solid red;
+    width: 1200px border: 5px solid red;
     background-color: red;
 }
- .raihan-1{
-    color: hotpink;
- }
 
- 
+.raihan-1 {
+    color: hotpink;
+}
+
+/* iconc section: */
+.icons {
+    width: 1200px;
+    padding-left: 80px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.icons-second {
+    width: 1200px;
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.icons-1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.icons-1:hover {
+    border: 1.5px solid rgb(58, 105, 244);
+    cursor: pointer;
+    background-color: rgb(189, 247, 131);
+    color: brown;
+}
+
+
 
 /* footer section: */
 .footer-contaner {
